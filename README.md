@@ -24,7 +24,7 @@ pip install mhcgnomes
 ```
 
 ### Installation
-Download the repository at [https://github.com/enricobautista/AutoPepVax.git](https://github.com/enricobautista/AutoPepVax.git), or copy the following code into your command prompt at the desired directory with the following code.
+Download the repository at [https://github.com/enricobautista/AutoPepVax.git](https://github.com/enricobautista/AutoPepVax.git), or copy the following code into your command prompt at the desired directory.
 ```bash
 git clone https://github.com/enricobautista/AutoPepVax.git
 ```
@@ -35,7 +35,7 @@ In JupyterLab, navigate to the *AutoPepVax* folder you downloaded, and open `Aut
 Change the following variables in the first code block to specify the mutations and protein you would like to study:
 |Variable|Description|Example|
 |:---:|:---|:---|
-|`cancer_name`|This should be the name of the cancer that harbors the relevant mutations. A folder for the cancer_name will appear in the *Data* folder. This folder will contain any output files pertinent to that cancer's mutations.|`cancer_name = 'LUAD'`|
+|`cancer_name`|This should be the name of the cancer that harbors relevant mutations. A folder for the cancer_name will appear in the *Data* folder. This folder will contain any output files pertinent to that cancer's mutations.|`cancer_name = 'LUAD'`|
 |`chromedriver_path`|This should be the file path to your ChromeDriver download.|`chromedriver_path = '/opt/homebrew/bin/chromedriver'`|
 |`og_seq`|This will be a string representing the single-letter code for the primary sequence of the unmutated protein that is being studied.|`og_seq = 'MRPSGTAGAALLALLAALCPASRALEEKKVCQGTSNKLTQLG'`|
 |`mutations`|This will be a list of the missense mutations that are being studied.|`mutations = ['A10T,R23G']` |
