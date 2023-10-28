@@ -31,7 +31,7 @@ git clone https://github.com/enricobautista/AutoPepVax.git
 To access the code, run JupyterLab and navigate to the folder you downloaded which should named *AutoPepVax*. The folder may need to be unzipped before accessing it.
 
 ### Quick Start Guide
-Navigate to the *AutoPepVax* folder you downloaded in JupyterLab, and open `Automate Protocol.ipynb`.  
+In JupyterLab, navigate to the *AutoPepVax* folder you downloaded, and open `Automate Protocol.ipynb`.  
 Change the following variables in the first code block to specify the mutations and protein you would like to study:
 |Variable|Description|Example|
 |:---:|:---|:---|
