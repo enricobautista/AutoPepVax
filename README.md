@@ -65,5 +65,5 @@ The functions in `Automate Protocol.ipynb` come from `PF.py`. Here are descripti
 `get_hydropathicity`: Collects hydropathicity for all parameters.  
 `get_allergenicity`: Collects the AllerTop 2.0 allergenicity predictions for all epitopes.  
 `get_INFgamma`: Collects the INFepitope INFgamma prediction values for all epitopes.  
-`rank_peptides`: Scores and classifies the epitopes based on the likelihood that they are good candidates for a peptide vaccine. Epitope-HLA pairs with an ID of 1 were classified as likely candidates. Epitope-HLA pairs are ranked by score within their class.  
+`rank_peptides`: Scores and classifies MHC I-restricted epitopes based on the likelihood that they are good candidates for a peptide vaccine. Epitope-HLA pairs with an ID of 1 were classified as likely candidates. Epitope-HLA pairs are ranked by score within their class.  
 `parameter_filter`: Creates a new file that only includes peptides that are filtered by the user's choice of parameters, which may include IEDB immunogenicity, antigenicity, half-life, instability index, toxicity, allergenicity, INFgamma, and ID.  
