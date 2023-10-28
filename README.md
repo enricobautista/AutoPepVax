@@ -50,6 +50,7 @@ Upon running the code in `Automate Protocol.ipynb`, a folder named after the `ca
 |CD4 Filtered Epitopes.csv|A filtered list of MHC II-restricted epitope-HLA alleles that meet exclusion criteria.|
 |CD8 Epitopes.csv|A list of all analyzed MHC I-restricted epitope-HLA alleles and their pertinent characteristics, including ID and score.|
 |CD8 Filtered Epitopes.csv|A filtered list of MHC I-restricted epitope-HLA alleles that meet exclusion criteria.|
+|Sequence.txt|A list of epitopes for internal use.|
 
 ### PF.py Function Descriptions
 The functions in `Automate Protocol.ipynb` come from `PF.py`. Here are descriptions of what each of these functions do.  
