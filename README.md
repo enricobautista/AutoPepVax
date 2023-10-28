@@ -6,7 +6,7 @@ An automatic epitope selection method for peptide vaccine design. The Python-bas
 - [Installation](#Installation)
 - [Quick Start Guide](#Quick-Start-Guide)
 - [Output](#Output)
-- [PF.py Function Descriptions](#PF.py-Function-Descriptions)
+- [PF.py Function Descriptions](#PFpy-Function-Descriptions)
 
 ### Dependencies
 The programs in this repository are easiest to use in the JupyterLab environment. The installation guide for JupyterLab can be found [here](https://jupyter.org/install).   
